@@ -29,7 +29,7 @@ export const venues: Venue[] = [
     type: "Outdoor",
     address: "Kirchheimerstraße 90, 69214 Eppelheim",
     postalCode: "69214",
-    phone: "[PLATZHALTER]",
+    phone: "06202 - 27 07 06",
     website: "https://gartengolf-eppelheim.de",
     holes: 18,
     priceAdult: "6,00 €",
