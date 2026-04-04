@@ -25,6 +25,7 @@ const Footer = () => {
             <ul className="space-y-1.5 text-sm opacity-70">
               <li><Link to="/" className="hover:opacity-100 transition-opacity">Startseite</Link></li>
               <li><Link to="/gartengolf-eppelheim" className="hover:opacity-100 transition-opacity">Gartengolf Eppelheim</Link></li>
+              <li><Link to="/preise" className="hover:opacity-100 transition-opacity">Preise</Link></li>
               <li><Link to="/magazin" className="hover:opacity-100 transition-opacity">Magazin</Link></li>
               <li><Link to="/ueber-uns" className="hover:opacity-100 transition-opacity">Über uns</Link></li>
               <li><Link to="/kontakt" className="hover:opacity-100 transition-opacity">Kontakt</Link></li>

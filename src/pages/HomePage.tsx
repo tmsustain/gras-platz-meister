@@ -59,15 +59,22 @@ const HomePage = () => {
         <div className="grid md:grid-cols-3 gap-5">
           {[
             { icon: "🕐", title: "Öffnungszeiten", desc: "April–September: täglich 10–20 Uhr. Oktober–März: Sa/So 11–17 Uhr." },
-            { icon: "💰", title: "Preise", desc: "Erwachsene: 6,00 € (1. Runde) · Kinder/Studenten/Senioren: 5,00 € (1. Runde) · 10er-Karte ab 43,00 €" },
+            { icon: "💰", title: "Preise", desc: "Erwachsene: 6,00 € (1. Runde) · Kinder/Studenten/Senioren: 5,00 € (1. Runde) · 10er-Karte ab 43,00 €", link: "/preise" },
             { icon: "📍", title: "Anfahrt", desc: "Kirchheimerstraße 90, 69214 Eppelheim. Kostenlose Parkplätze vorhanden." },
-          ].map((card) => (
-            <div key={card.title} className="bg-card rounded-lg border p-6 card-shadow text-center">
-              <span className="text-4xl mb-3 block">{card.icon}</span>
-              <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
-              <p className="text-sm text-muted-foreground">{card.desc}</p>
-            </div>
-          ))}
+          ].map((card) => {
+            const inner = (
+              <div key={card.title} className="bg-card rounded-lg border p-6 card-shadow text-center hover:border-primary/40 transition-colors">
+                <span className="text-4xl mb-3 block">{card.icon}</span>
+                <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
+                <p className="text-sm text-muted-foreground">{card.desc}</p>
+              </div>
+            );
+            return card.link ? (
+              <Link key={card.title} to={card.link} className="block">{inner}</Link>
+            ) : (
+              <div key={card.title}>{inner}</div>
+            );
+          })}
         </div>
       </section>
 
