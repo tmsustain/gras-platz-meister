@@ -59,7 +59,7 @@ const HomePage = () => {
         <div className="grid md:grid-cols-3 gap-5">
           {[
             { icon: "🕐", title: "Öffnungszeiten", desc: "April–September: täglich 10–20 Uhr. Oktober–März: Sa/So 11–17 Uhr." },
-            { icon: "💰", title: "Preise", desc: "Erwachsene 5,00 € · Kinder 3,50 € · Gruppen auf Anfrage." },
+            { icon: "💰", title: "Preise", desc: "Erwachsene: 6,00 € (1. Runde) · Kinder/Studenten/Senioren: 5,00 € (1. Runde) · 10er-Karte ab 43,00 €" },
             { icon: "📍", title: "Anfahrt", desc: "Kirchheimerstraße 90, 69214 Eppelheim. Kostenlose Parkplätze vorhanden." },
           ].map((card) => (
             <div key={card.title} className="bg-card rounded-lg border p-6 card-shadow text-center">
