@@ -13,6 +13,7 @@ import MagazinePage from "@/pages/MagazinePage";
 import ArticlePage from "@/pages/ArticlePage";
 import UeberUns from "@/pages/UeberUns";
 import Preise from "@/pages/Preise";
+import Spielregeln from "@/pages/Spielregeln";
 import Kontakt from "@/pages/Kontakt";
 import Datenschutz from "@/pages/Datenschutz";
 import Impressum from "@/pages/Impressum";
@@ -37,6 +38,7 @@ const App = () => (
               <Route path="/magazin/:slug" element={<ArticlePage />} />
               <Route path="/ueber-uns" element={<UeberUns />} />
               <Route path="/preise" element={<Preise />} />
+              <Route path="/spielregeln" element={<Spielregeln />} />
               <Route path="/kontakt" element={<Kontakt />} />
               <Route path="/datenschutz" element={<Datenschutz />} />
               <Route path="/impressum" element={<Impressum />} />
