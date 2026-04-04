@@ -15,8 +15,6 @@ const Header = () => {
     { label: "Anfahrt", to: "/anfahrt" },
     { label: "Preise", to: "/preise" },
     { label: "Magazin", to: "/magazin" },
-    { label: "Über uns", to: "/ueber-uns" },
-    { label: "Kontakt", to: "/kontakt" },
   ];
 
   return (
