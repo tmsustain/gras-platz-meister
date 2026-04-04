@@ -58,7 +58,7 @@ const HomePage = () => {
         <h2 className="text-2xl md:text-3xl mb-8">Über den Platz</h2>
         <div className="grid md:grid-cols-3 gap-5">
           {[
-            { icon: "🕐", title: "Öffnungszeiten", desc: "April–September: täglich 10–20 Uhr. Oktober–März: Sa/So 11–17 Uhr." },
+            { icon: "🕐", title: "Öffnungszeiten", desc: "Mo–Fr: 14:00–19:00 Uhr · Sa/So/Feiertage: 11:00–19:00 Uhr · Schlägerausgabe bis 18:00 Uhr · In den BW-Ferien: täglich ab 11:00 Uhr" },
             { icon: "💰", title: "Preise", desc: "Erwachsene: 6,00 € (1. Runde) · Kinder/Studenten/Senioren: 5,00 € (1. Runde) · 10er-Karte ab 43,00 €", link: "/preise" },
             { icon: "📍", title: "Anfahrt", desc: "Kirchheimerstraße 90, 69214 Eppelheim. Kostenlose Parkplätze vorhanden." },
           ].map((card) => {
