@@ -13,6 +13,7 @@ import MagazinePage from "@/pages/MagazinePage";
 import ArticlePage from "@/pages/ArticlePage";
 import UeberUns from "@/pages/UeberUns";
 import Preise from "@/pages/Preise";
+import Spielregeln from "@/pages/Spielregeln";
 import Kontakt from "@/pages/Kontakt";
 import Datenschutz from "@/pages/Datenschutz";
 import Impressum from "@/pages/Impressum";
