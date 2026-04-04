@@ -33,12 +33,17 @@ const InfoSidebar = ({ venue }: { venue: Venue }) => {
         <table className="w-full text-sm">
           <tbody>
             <tr className="border-b border-border/50">
-              <td className="py-2 text-muted-foreground">Erwachsene</td>
+              <td className="py-2 text-muted-foreground">Erwachsene (1. Runde)</td>
               <td className="py-2 text-right font-medium">{venue.priceAdult || "—"}</td>
             </tr>
-            <tr>
-              <td className="py-2 text-muted-foreground">Kinder</td>
+            <tr className="border-b border-border/50">
+              <td className="py-2 text-muted-foreground">Kinder/Studenten/Senioren (1. Runde)</td>
               <td className="py-2 text-right font-medium">{venue.priceChild || "—"}</td>
+            </tr>
+            <tr>
+              <td className="py-2 text-muted-foreground" colSpan={2}>
+                <a href="/preise" className="text-primary font-medium hover:underline text-xs">Alle Preise & Mehrfachkarten →</a>
+              </td>
             </tr>
           </tbody>
         </table>
