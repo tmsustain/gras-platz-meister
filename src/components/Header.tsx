@@ -12,6 +12,7 @@ const Header = () => {
   const navLinks = [
     { label: "Gartengolf Eppelheim", to: "/gartengolf-eppelheim" },
     { label: "Spielregeln", to: "/spielregeln" },
+    { label: "Anfahrt", to: "/anfahrt" },
     { label: "Preise", to: "/preise" },
     { label: "Magazin", to: "/magazin" },
     { label: "Über uns", to: "/ueber-uns" },
