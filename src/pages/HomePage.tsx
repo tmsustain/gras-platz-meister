@@ -58,15 +58,33 @@ const HomePage = () => {
         <h2 className="text-2xl md:text-3xl mb-8">Über den Platz</h2>
         <div className="grid md:grid-cols-3 gap-5">
           {[
-            { icon: "🕐", title: "Öffnungszeiten", desc: "Mo–Fr: 14:00–19:00 Uhr · Sa/So/Feiertage: 11:00–19:00 Uhr · Schlägerausgabe bis 18:00 Uhr · In den BW-Ferien: täglich ab 11:00 Uhr" },
-            { icon: "💰", title: "Preise", desc: "Erwachsene: 6,00 € (1. Runde) · Kinder/Studenten/Senioren: 5,00 € (1. Runde) · 10er-Karte ab 43,00 €", link: "/preise" },
-            { icon: "📍", title: "Anfahrt", desc: "Kirchheimerstraße 90, 69214 Eppelheim. Kostenlose Parkplätze vorhanden." },
+            {
+              icon: "🕐",
+              title: "Öffnungszeiten",
+              lines: ["Mo–Fr: 14:00–19:00 Uhr", "Sa/So/Feiertage: 11:00–19:00 Uhr", "Schlägerausgabe bis 18:00 Uhr", "BW-Ferien: täglich ab 11:00 Uhr"],
+            },
+            {
+              icon: "💰",
+              title: "Preise",
+              lines: ["Erwachsene: 6,00 € (1. Runde)", "Kinder/Studenten/Senioren: 5,00 € (1. Runde)", "10er-Karte ab 43,00 €"],
+              link: "/preise",
+            },
+            {
+              icon: "📍",
+              title: "Anfahrt",
+              lines: ["Kirchheimerstraße 90", "69214 Eppelheim", "Kostenlose Parkplätze vorhanden"],
+              link: "/anfahrt",
+            },
           ].map((card) => {
             const inner = (
               <div key={card.title} className="bg-card rounded-lg border p-6 card-shadow text-center hover:border-primary/40 transition-colors">
                 <span className="text-4xl mb-3 block">{card.icon}</span>
-                <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
-                <p className="text-sm text-muted-foreground">{card.desc}</p>
+                <h3 className="font-semibold text-lg mb-3">{card.title}</h3>
+                <ul className="text-sm text-muted-foreground divide-y divide-border">
+                  {card.lines.map((line) => (
+                    <li key={line} className="py-2">{line}</li>
+                  ))}
+                </ul>
               </div>
             );
             return card.link ? (
