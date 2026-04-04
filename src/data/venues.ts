@@ -37,7 +37,7 @@ export const venues: Venue[] = [
     rating: 4.5,
     description: "Gartengolf Eppelheim ist ein traditioneller Minigolfplatz mit 18 gepflegten Betonbahnen in idyllischer Gartenatmosphäre. Seit vielen Jahren ist die Anlage ein beliebtes Ausflugsziel für Familien, Gruppen und Minigolf-Enthusiasten aus der gesamten Metropolregion Rhein-Neckar. Der Platz liegt verkehrsgünstig zwischen Heidelberg und Schwetzingen und bietet ausreichend Parkmöglichkeiten. Kinder und Anfänger fühlen sich hier ebenso wohl wie erfahrene Spieler. Die gepflegte Gartenanlage lädt zum Verweilen ein und bietet eine entspannte Atmosphäre abseits des Alltags.",
     shortDescription: "Traditioneller 18-Bahnen-Minigolfplatz in idyllischer Gartenatmosphäre nahe Heidelberg.",
-    openingHours: "April–September: täglich 10:00–20:00 Uhr, Oktober–März: Sa/So 11:00–17:00 Uhr",
+    openingHours: "Mo–Fr: 14:00–19:00 Uhr (Schlägerausgabe bis 18:00 Uhr), Sa/So/Feiertage: 11:00–19:00 Uhr (Schlägerausgabe bis 18:00 Uhr), in den BW-Ferien: täglich ab 11:00 Uhr",
     features: ["18 Bahnen", "Familienfreundlich", "Kindergeburtstage", "Parkplätze", "Gartenanlage"],
     lat: 49.3975,
     lng: 8.6331,
