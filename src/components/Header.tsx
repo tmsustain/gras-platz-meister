@@ -15,8 +15,6 @@ const Header = () => {
     { label: "Anfahrt", to: "/anfahrt" },
     { label: "Preise", to: "/preise" },
     { label: "Magazin", to: "/magazin" },
-    { label: "Über uns", to: "/ueber-uns" },
-    { label: "Kontakt", to: "/kontakt" },
   ];
 
   return (
@@ -30,20 +28,20 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden lg:flex items-center gap-1">
-          {navLinks.slice(0, 1).map((l) => (
+          {navLinks.map((l) => (
             <Link key={l.to} to={l.to} className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive(l.to) ? "bg-accent text-primary" : "text-muted-foreground hover:text-foreground hover:bg-muted"}`}>
               {l.label}
             </Link>
           ))}
 
-          {/* Region Dropdown */}
+          {/* Region Dropdown - last item */}
           <div className="relative" onMouseEnter={() => setRegionOpen(true)} onMouseLeave={() => setRegionOpen(false)}>
             <button className={`px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-1 ${location.pathname.startsWith("/minigolf/") ? "bg-accent text-primary" : "text-muted-foreground hover:text-foreground hover:bg-muted"}`}>
               Minigolf in der Region
               <span className="text-xs">▾</span>
             </button>
             {regionOpen && (
-              <div className="absolute top-full left-0 mt-1 bg-card border rounded-lg shadow-lg p-4 w-80 grid grid-cols-2 gap-1">
+              <div className="absolute top-full right-0 mt-1 bg-card border rounded-lg shadow-lg p-4 w-80 grid grid-cols-2 gap-1">
                 {cities.map((c) => (
                   <Link key={c.slug} to={`/minigolf/${c.slug}`} className="px-3 py-1.5 text-sm rounded hover:bg-muted transition-colors" onClick={() => setRegionOpen(false)}>
                     {c.name}
@@ -52,12 +50,6 @@ const Header = () => {
               </div>
             )}
           </div>
-
-          {navLinks.slice(1).map((l) => (
-            <Link key={l.to} to={l.to} className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive(l.to) ? "bg-accent text-primary" : "text-muted-foreground hover:text-foreground hover:bg-muted"}`}>
-              {l.label}
-            </Link>
-          ))}
         </nav>
 
         {/* Mobile toggle */}
