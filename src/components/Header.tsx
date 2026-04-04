@@ -51,9 +51,6 @@ const Header = () => {
             )}
           </div>
         </nav>
-            </Link>
-          ))}
-        </nav>
 
         {/* Mobile toggle */}
         <button className="lg:hidden p-2 rounded-md hover:bg-muted" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Menü öffnen">
