@@ -40,11 +40,6 @@ const InfoSidebar = ({ venue }: { venue: Venue }) => {
               <td className="py-2 text-muted-foreground">Kinder/Studenten/Senioren (1. Runde)</td>
               <td className="py-2 text-right font-medium">{venue.priceChild || "—"}</td>
             </tr>
-            <tr>
-              <td className="py-2 text-muted-foreground" colSpan={2}>
-                <a href="/preise" className="text-primary font-medium hover:underline text-xs">Alle Preise & Mehrfachkarten →</a>
-              </td>
-            </tr>
           </tbody>
         </table>
       </div>
