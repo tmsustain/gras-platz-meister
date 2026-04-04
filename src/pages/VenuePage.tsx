@@ -64,6 +64,22 @@ const VenuePage = () => {
           </div>
         </div>
 
+        {/* Google Maps */}
+        {venue.lat && venue.lng && (
+          <div className="rounded-xl overflow-hidden border card-shadow mb-8 aspect-[3/1]">
+            <iframe
+              title={`${venue.name} auf Google Maps`}
+              src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(venue.address)}&zoom=15`}
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        )}
+
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">
             {sections.map((s, i) => (
