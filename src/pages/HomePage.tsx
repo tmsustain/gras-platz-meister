@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import heroImage from "@/assets/minigolf-gartengolf-eppelheim.webp";
 import SEOHead from "@/components/SEOHead";
 import HeroSection from "@/components/HeroSection";
 import FAQBlock from "@/components/FAQBlock";
@@ -64,6 +65,16 @@ const HomePage = () => {
         cta1={{ label: "Zum Platz", to: "#platz-infos" }}
         cta2={{ label: "Minigolf in der Region", to: "/minigolf/heidelberg" }}
       />
+
+      {/* Hero Image */}
+      <section className="w-full">
+        <img
+          src={heroImage}
+          alt="Minigolfanlage Gartengolf Eppelheim mit gepflegten Bahnen und idyllischer Gartenatmosphäre"
+          className="w-full h-[300px] md:h-[450px] lg:h-[550px] object-cover"
+          loading="eager"
+        />
+      </section>
 
       {/* Feature Cards */}
       <section className="container-page py-12">
