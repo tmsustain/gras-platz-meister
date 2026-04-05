@@ -10,7 +10,6 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const navLinks = [
-    { label: "Gartengolf Eppelheim", to: "/gartengolf-eppelheim" },
     { label: "Spielregeln", to: "/spielregeln" },
     { label: "Anfahrt", to: "/anfahrt" },
     { label: "Preise", to: "/preise" },
