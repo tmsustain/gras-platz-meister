@@ -32,7 +32,7 @@ const App = () => (
           <main className="min-h-screen">
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/gartengolf-eppelheim" element={<LocationHubPage />} />
+              
               <Route path="/minigolf/:slug" element={<CityPage />} />
               <Route path="/minigolf-platz/:slug" element={<VenuePage />} />
               <Route path="/magazin" element={<MagazinePage />} />
