@@ -3,7 +3,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 const Impressum = () => (
   <>
-    <SEOHead title="Impressum – Gartengolf Eppelheim" description="Impressum von Gartengolf Eppelheim gemäß § 5 TMG." canonical="/impressum" noindex />
+    <SEOHead title="📄 Impressum – Gartengolf Eppelheim" description="Impressum & Anbieterkennzeichnung von Gartengolf Eppelheim gemäß § 5 TMG." canonical="/impressum" noindex />
     <Breadcrumb items={[{ label: "Startseite", href: "/" }, { label: "Impressum" }]} />
     <div className="container-page py-8 max-w-3xl">
       <h1 className="text-3xl md:text-4xl mb-6">Impressum</h1>

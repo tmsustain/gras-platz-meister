@@ -4,7 +4,7 @@ import FAQBlock from "@/components/FAQBlock";
 
 const Kontakt = () => (
   <>
-    <SEOHead title="Kontakt – Gartengolf Eppelheim" description="Kontaktieren Sie Gartengolf Eppelheim: Adresse, Anfahrt und Kontaktmöglichkeiten für Ihren Minigolf-Besuch." canonical="/kontakt" />
+    <SEOHead title="📞 Kontakt – Gartengolf Eppelheim | Schreib uns!" description="✉️ Kontakt Gartengolf Eppelheim: Adresse, Öffnungszeiten & Telefon ✓ Gruppen & Kindergeburtstage auf Anfrage ✓ Jetzt Kontakt aufnehmen!" canonical="/kontakt" />
     <Breadcrumb items={[{ label: "Startseite", href: "/" }, { label: "Kontakt" }]} />
     <div className="container-page py-8 max-w-3xl">
       <h1 className="text-3xl md:text-4xl mb-6">Kontakt</h1>

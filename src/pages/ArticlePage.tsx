@@ -28,7 +28,7 @@ const ArticlePage = () => {
   return (
     <>
       <SEOHead
-        title={`${article.title} – Ratgeber | Gartengolf Eppelheim Magazin`}
+        title={`📖 ${article.title} – Tipps & Ratgeber | Minigolf Magazin`}
         description={article.metaDescription}
         canonical={`/magazin/${article.slug}`}
         type="article"

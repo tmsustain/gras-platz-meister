@@ -4,7 +4,7 @@ import FAQBlock from "@/components/FAQBlock";
 
 const UeberUns = () => (
   <>
-    <SEOHead title="Über uns – Gartengolf Eppelheim" description="Erfahren Sie mehr über Gartengolf Eppelheim – Geschichte, Team und unsere Leidenschaft für Minigolf in der Metropolregion Rhein-Neckar." canonical="/ueber-uns" />
+    <SEOHead title="💚 Über uns – Gartengolf Eppelheim | Unsere Geschichte" description="🌿 Lerne Gartengolf Eppelheim kennen: Tradition, Leidenschaft & 18 Bahnen Minigolf-Spaß ✓ Seit Jahren das Ausflugsziel Nr. 1 bei Heidelberg!" canonical="/ueber-uns" />
     <Breadcrumb items={[{ label: "Startseite", href: "/" }, { label: "Über uns" }]} />
     <div className="container-page py-8 max-w-3xl">
       <h1 className="text-3xl md:text-4xl mb-6">Über Gartengolf Eppelheim</h1>

@@ -15,8 +15,8 @@ const MagazinePage = () => {
   return (
     <>
       <SEOHead
-        title="Minigolf Magazin – Ratgeber, Tipps & Wissen | Gartengolf Eppelheim"
-        description="Im Minigolf-Magazin finden Sie Ratgeber, Tipps, Regeln und Wissenswertes rund um Minigolf, Adventure Golf und Schwarzlicht-Minigolf."
+        title="📰 Minigolf Magazin – Tipps, Tricks & Wissen"
+        description="🧠 Dein Minigolf-Ratgeber: Regeln, Technik-Tipps & spannende Facts rund um Minigolf, Adventure Golf & Schwarzlicht ✓ Jetzt schlauer spielen!"
         canonical="/magazin"
       />
       <Breadcrumb items={[{ label: "Startseite", href: "/" }, { label: "Magazin" }]} />

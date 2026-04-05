@@ -48,8 +48,8 @@ const Spielregeln = () => {
   return (
     <>
       <SEOHead
-        title="Spielregeln – Gartengolf Eppelheim | Minigolf Regeln einfach erklärt"
-        description="Die offiziellen Spielregeln beim Gartengolf Eppelheim: Ablauf, Schlagzahl, Strafpunkte und Tipps für Anfänger – einfach und verständlich erklärt."
+        title="📋 Minigolf Spielregeln – Einfach erklärt für Anfänger"
+        description="🏌️ Minigolf Regeln auf einen Blick: Schlagzahl, Strafpunkte & Tipps ✓ Perfekt für Einsteiger ✓ Sofort losspielen bei Gartengolf Eppelheim!"
         canonical="/spielregeln"
       />
       <div className="container-page py-10">
