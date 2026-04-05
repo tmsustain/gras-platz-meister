@@ -63,7 +63,7 @@ const HomePage = () => {
         title="Gartengolf Eppelheim – Minigolf für die ganze Familie"
         subtitle="Minigolf im Herzen der Metropolregion Rhein-Neckar"
         cta1={{ label: "Öffnungszeiten", to: "#oeffnungszeiten" }}
-        cta2={{ label: "Minigolf in der Region", to: "/minigolf/heidelberg" }}
+        cta2={{ label: "Anfahrt & Lage", to: "/anfahrt" }}
       />
 
       {/* Hero Image */}
