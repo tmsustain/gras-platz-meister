@@ -62,7 +62,7 @@ const HomePage = () => {
       <HeroSection
         title="Gartengolf Eppelheim – Minigolf für die ganze Familie"
         subtitle="Minigolf im Herzen der Metropolregion Rhein-Neckar"
-        cta1={{ label: "Zum Platz", to: "#platz-infos" }}
+        cta1={{ label: "Öffnungszeiten", to: "#oeffnungszeiten" }}
         cta2={{ label: "Minigolf in der Region", to: "/minigolf/heidelberg" }}
       />
 
@@ -77,7 +77,7 @@ const HomePage = () => {
       </section>
 
       {/* Feature Cards */}
-      <section className="container-page py-12">
+      <section id="oeffnungszeiten" className="container-page py-12">
         <h2 className="text-2xl md:text-3xl mb-8">Über den Platz</h2>
         <div className="grid md:grid-cols-3 gap-5">
           {[
