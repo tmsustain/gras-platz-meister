@@ -65,6 +65,16 @@ const HomePage = () => {
         cta2={{ label: "Minigolf in der Region", to: "/minigolf/heidelberg" }}
       />
 
+      {/* Hero Image */}
+      <section className="w-full">
+        <img
+          src={heroImage}
+          alt="Minigolfanlage Gartengolf Eppelheim mit gepflegten Bahnen und idyllischer Gartenatmosphäre"
+          className="w-full h-[300px] md:h-[450px] lg:h-[550px] object-cover"
+          loading="eager"
+        />
+      </section>
+
       {/* Feature Cards */}
       <section className="container-page py-12">
         <h2 className="text-2xl md:text-3xl mb-8">Über den Platz</h2>
