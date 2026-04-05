@@ -77,7 +77,7 @@ const HomePage = () => {
       </section>
 
       {/* Feature Cards */}
-      <section className="container-page py-12">
+      <section id="oeffnungszeiten" className="container-page py-12">
         <h2 className="text-2xl md:text-3xl mb-8">Über den Platz</h2>
         <div className="grid md:grid-cols-3 gap-5">
           {[
