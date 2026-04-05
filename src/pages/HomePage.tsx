@@ -52,8 +52,8 @@ const HomePage = () => {
   return (
     <>
       <SEOHead
-        title="Gartengolf Eppelheim – Minigolf in der Metropolregion Rhein-Neckar"
-        description="Gartengolf Eppelheim: Traditioneller Minigolfplatz bei Heidelberg. Alle Infos zu Öffnungszeiten, Preisen & Minigolfplätzen in der Region."
+        title="⛳ Gartengolf Eppelheim – Minigolf-Spaß bei Heidelberg"
+        description="🏌️ Gartengolf Eppelheim: 18 Bahnen Minigolf-Vergnügen für Familien & Gruppen ✓ Günstige Preise ✓ Idyllische Gartenanlage ✓ Jetzt entdecken!"
         canonical="/"
         jsonLd={localBusinessJsonLd}
       />

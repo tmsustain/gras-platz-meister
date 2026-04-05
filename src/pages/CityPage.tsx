@@ -50,8 +50,8 @@ const CityPage = () => {
   return (
     <>
       <SEOHead
-        title={`Minigolf ${city.name} – Alle ${allRelevant.length} Minigolfplätze & Anlagen ${new Date().getFullYear()}`}
-        description={`Alle Minigolfplätze in ${city.name} auf einen Blick – Adressen, Öffnungszeiten, Preise und Tipps für Familien, Gruppen & Schulklassen.`}
+        title={`🏌️ Minigolf ${city.name} – Die ${allRelevant.length} besten Anlagen ${new Date().getFullYear()}`}
+        description={`⛳ Alle Minigolfplätze in ${city.name} im Überblick: Preise, Öffnungszeiten & Bewertungen ✓ Outdoor, Indoor & Schwarzlicht ✓ Jetzt Anlage finden!`}
         canonical={`/minigolf/${city.slug}`}
         jsonLd={jsonLd}
       />

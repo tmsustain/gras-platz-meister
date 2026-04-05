@@ -3,7 +3,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 const Datenschutz = () => (
   <>
-    <SEOHead title="Datenschutzerklärung – Gartengolf Eppelheim" description="Datenschutzerklärung von Gartengolf Eppelheim gemäß DSGVO." canonical="/datenschutz" noindex />
+    <SEOHead title="🔒 Datenschutz – Gartengolf Eppelheim" description="Datenschutzerklärung von Gartengolf Eppelheim gemäß DSGVO – Ihre Daten sind bei uns sicher." canonical="/datenschutz" noindex />
     <Breadcrumb items={[{ label: "Startseite", href: "/" }, { label: "Datenschutz" }]} />
     <div className="container-page py-8 max-w-3xl prose prose-sm">
       <h1 className="text-3xl md:text-4xl mb-6 font-bold">Datenschutzerklärung</h1>

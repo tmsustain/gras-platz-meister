@@ -10,8 +10,8 @@ const Anfahrt = () => {
   return (
     <>
       <SEOHead
-        title="Anfahrt – Gartengolf Eppelheim | So finden Sie uns"
-        description="Anfahrt zum Gartengolf Eppelheim: Adresse, Google Maps Karte, Parkmöglichkeiten und Anreise mit öffentlichen Verkehrsmitteln."
+        title="📍 Anfahrt – Gartengolf Eppelheim | So findest du uns"
+        description="🗺️ Anfahrt Gartengolf Eppelheim: Google Maps, Parken & ÖPNV ✓ Kostenlose Parkplätze ✓ Nur 5 Min von der A5 – Jetzt Route planen!"
         canonical="/anfahrt"
       />
       <div className="container-page py-10">

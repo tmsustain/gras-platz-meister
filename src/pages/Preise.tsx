@@ -10,8 +10,8 @@ const Preise = () => {
   return (
     <>
       <SEOHead
-        title="Preise – Gartengolf Eppelheim | Minigolf Eintrittspreise"
-        description="Alle Preise für Gartengolf Eppelheim auf einen Blick: Einzelrunden, 10er-Karten, 50er-Karten und Saisonkarten für Erwachsene, Kinder, Studenten und Senioren."
+        title="💰 Preise – Gartengolf Eppelheim | Ab 5 € pro Runde"
+        description="⛳ Minigolf Preise Gartengolf Eppelheim: Einzelrunde ab 5 € ✓ 10er-Karten ✓ Saisonkarten ✓ Kinder, Studenten & Senioren günstiger!"
         canonical="/preise"
       />
       <div className="container-page py-10">

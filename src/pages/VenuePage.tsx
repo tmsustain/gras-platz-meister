@@ -38,8 +38,8 @@ const VenuePage = () => {
   return (
     <>
       <SEOHead
-        title={`${venue.name} – Minigolf ${venue.city} | Preise, Öffnungszeiten & Infos`}
-        description={`${venue.name} in ${venue.city}: ${venue.shortDescription} Alle Infos zu Preisen, Öffnungszeiten und Anfahrt.`}
+        title={`⛳ ${venue.name} – Minigolf ${venue.city} | Preise & Infos`}
+        description={`🎯 ${venue.name} in ${venue.city}: ${venue.shortDescription} ✓ Preise ✓ Öffnungszeiten ✓ Anfahrt – Jetzt alle Infos!`}
         canonical={`/minigolf-platz/${venue.slug}`}
         jsonLd={jsonLd}
       />
