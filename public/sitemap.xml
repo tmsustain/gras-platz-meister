@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Startseite -->
+  <url><loc>https://gartengolf-eppelheim.de/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+
+  <!-- Hauptseiten -->
+  <url><loc>https://gartengolf-eppelheim.de/preise</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/anfahrt</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/spielregeln</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/kontakt</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/ueber-uns</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- Städte -->
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/heidelberg</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/mannheim</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/schwetzingen</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/speyer</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/ludwigshafen</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/weinheim</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/leimen</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/neckargemuend</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/wiesloch</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/hockenheim</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/ladenburg</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/viernheim</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/walldorf</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/sandhausen</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/nussloch</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf/schriesheim</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+
+  <!-- Venues -->
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/gartengolf-schwetzingen</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/gate99-gleamgolf-heidelberg</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/omas-garten-heidelberg</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/minigolf-waldhilsbach</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/mgc-ladenburg</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/the-mindgolf-mannheim</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/world-of-gleamgolf-mannheim</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/adventure-golf-hohenhardter-hof</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/minigolf-boxberg</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/minigolf-speyer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/minigolf-platz/mgc-weinheim</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Magazin-Artikel -->
+  <url><loc>https://gartengolf-eppelheim.de/magazin/was-ist-minigolf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-regeln</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-vs-golf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-fuer-kinder</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-kindergeburtstag</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-gruppenevents</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-turniere</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-bahnen-arten</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/schwarzlicht-minigolf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/adventure-golf</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-schlaeger-ball</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-technik-tipps</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/golf-grundlagen</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/golf-vs-minigolf-unterschied</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/golf-anfaenger-guide</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-wetter-outdoor-vs-indoor</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-preise-vergleich</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-mit-hund</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-barrierefrei</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/beste-minigolf-apps</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Rechtliches (noindex, aber in Sitemap für Crawling) -->
+  <url><loc>https://gartengolf-eppelheim.de/impressum</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/datenschutz</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>
