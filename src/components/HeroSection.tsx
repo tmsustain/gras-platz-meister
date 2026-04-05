@@ -22,12 +22,21 @@ const HeroSection = ({ title, subtitle, cta1, cta2 }: HeroSectionProps) => {
         {(cta1 || cta2) && (
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {cta1 && (
-              <Link
-                to={cta1.to}
-                className="inline-flex items-center justify-center px-8 py-3.5 bg-secondary text-secondary-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity text-base"
-              >
-                {cta1.label}
-              </Link>
+              cta1.to.startsWith("#") ? (
+                <a
+                  href={cta1.to}
+                  className="inline-flex items-center justify-center px-8 py-3.5 bg-secondary text-secondary-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity text-base"
+                >
+                  {cta1.label}
+                </a>
+              ) : (
+                <Link
+                  to={cta1.to}
+                  className="inline-flex items-center justify-center px-8 py-3.5 bg-secondary text-secondary-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity text-base"
+                >
+                  {cta1.label}
+                </Link>
+              )
             )}
             {cta2 && (
               <Link
