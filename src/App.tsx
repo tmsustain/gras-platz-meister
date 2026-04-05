@@ -6,7 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
-import LocationHubPage from "@/pages/LocationHubPage";
+
 import CityPage from "@/pages/CityPage";
 import VenuePage from "@/pages/VenuePage";
 import MagazinePage from "@/pages/MagazinePage";
