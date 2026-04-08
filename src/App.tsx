@@ -23,32 +23,40 @@ import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
 
+const AppContent = () => {
+  useAdsenseRefresh();
+  return (
+    <>
+      <Header />
+      <main className="min-h-screen">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/minigolf/:slug" element={<CityPage />} />
+          <Route path="/minigolf-platz/:slug" element={<VenuePage />} />
+          <Route path="/magazin" element={<MagazinePage />} />
+          <Route path="/magazin/:slug" element={<ArticlePage />} />
+          <Route path="/ueber-uns" element={<UeberUns />} />
+          <Route path="/preise" element={<Preise />} />
+          <Route path="/spielregeln" element={<Spielregeln />} />
+          <Route path="/anfahrt" element={<Anfahrt />} />
+          <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/datenschutz" element={<Datenschutz />} />
+          <Route path="/impressum" element={<Impressum />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
+  );
+};
+
 const App = () => (
   <HelmetProvider>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <BrowserRouter>
-          <Header />
-          <main className="min-h-screen">
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              
-              <Route path="/minigolf/:slug" element={<CityPage />} />
-              <Route path="/minigolf-platz/:slug" element={<VenuePage />} />
-              <Route path="/magazin" element={<MagazinePage />} />
-              <Route path="/magazin/:slug" element={<ArticlePage />} />
-              <Route path="/ueber-uns" element={<UeberUns />} />
-              <Route path="/preise" element={<Preise />} />
-              <Route path="/spielregeln" element={<Spielregeln />} />
-              <Route path="/anfahrt" element={<Anfahrt />} />
-              <Route path="/kontakt" element={<Kontakt />} />
-              <Route path="/datenschutz" element={<Datenschutz />} />
-              <Route path="/impressum" element={<Impressum />} />
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
-          <Footer />
+          <AppContent />
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
