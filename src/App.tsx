@@ -43,6 +43,7 @@ const AppContent = () => {
           <Route path="/datenschutz" element={<Datenschutz />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/impressum.html" element={<Navigate to="/impressum" replace />} />
+          <Route path="/gartengolf-eppelheim" element={<Navigate to="/" replace />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
