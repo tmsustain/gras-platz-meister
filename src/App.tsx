@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useAdsenseRefresh } from "@/hooks/useAdsenseRefresh";
 import { HelmetProvider } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
@@ -42,6 +42,7 @@ const AppContent = () => {
           <Route path="/kontakt" element={<Kontakt />} />
           <Route path="/datenschutz" element={<Datenschutz />} />
           <Route path="/impressum" element={<Impressum />} />
+          <Route path="/impressum.html" element={<Navigate to="/impressum" replace />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
