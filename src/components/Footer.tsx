@@ -12,12 +12,16 @@ const Footer = () => {
               <span className="text-2xl">⛳</span>
               Gartengolf Eppelheim
             </Link>
-            <p className="text-sm opacity-70 mb-3">
-              Minigolf im Herzen der Metropolregion Rhein-Neckar. Traditioneller Minigolfplatz für Familien, Gruppen und Freizeitsportler.
-            </p>
-            <p className="text-sm opacity-60">
-              Kirchheimerstraße 90<br />69214 Eppelheim
-            </p>
+             <p className="text-sm opacity-70 mb-3">
+               Minigolf im Herzen der Metropolregion Rhein-Neckar. Traditioneller Minigolfplatz für Familien, Gruppen und Freizeitsportler.&nbsp;
+               Wichtig: Gartengolf-Eppelheim.de ist nicht der Betreiber des Minigolf Platzes.
+             </p>
+             <p className="text-sm opacity-60">
+               Gartengolf Eppelheim<br />
+               Kirchheimerstraße 90<br />
+               69214 Eppelheim<br /><br />
+               Gartengolf-Eppelheim.de ist nicht der Betreiber des Minigolf Platzes.
+             </p>
           </div>
 
           <div>
@@ -59,9 +63,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm opacity-60">
-          <p>© {new Date().getFullYear()} Gartengolf Eppelheim. Alle Rechte vorbehalten.</p>
-          <div className="flex gap-4">
+         <div className="border-t border-primary-foreground/20 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm opacity-60">
+           <p>© {new Date().getFullYear()} Gartengolf Eppelheim.&nbsp; Alle Rechte vorbehalten.</p>
+           <div className="flex gap-4">
             <Link to="/impressum" className="hover:opacity-100">Impressum</Link>
             <Link to="/datenschutz" className="hover:opacity-100">Datenschutz</Link>
           </div>
