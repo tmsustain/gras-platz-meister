@@ -1,6 +1,5 @@
 import SEOHead from "@/components/SEOHead";
 import Breadcrumb from "@/components/Breadcrumb";
-import impressumInfo from "@/assets/impressum-info.jpg";
 
 const Impressum = () => (
   <>
@@ -9,7 +8,13 @@ const Impressum = () => (
     <div className="container-page py-8 max-w-3xl">
       <h1 className="text-3xl md:text-4xl mb-6">Impressum</h1>
       <h2 className="text-xl font-semibold mt-6 mb-2">Angaben gemäß § 5 TMG</h2>
-      <img src={impressumInfo} alt="Viver Anguli – Q. 906 Sul Alameda 7, 22, Plano Diretor Sul, Palmas - TO, 77023-384, Brasilien" className="rounded-lg shadow-md my-4 max-w-md w-full" />
+      <p className="text-muted-foreground mb-4">
+        Viver Anguli<br />
+        Q. 906 Sul Alameda 7, 22 - Plano Diretor Sul<br />
+        Palmas - TO<br />
+        77023-384, Brasilien<br /><br />
+        E-Mail: <a href="mailto:one2sms@web.de" className="underline">one2sms@web.de</a>
+      </p>
        <h2 className="text-xl font-semibold mt-6 mb-2">Anschrift des Minigolfplatzes</h2>
        <p className="text-muted-foreground mb-4">
          Gartengolf Eppelheim<br />
