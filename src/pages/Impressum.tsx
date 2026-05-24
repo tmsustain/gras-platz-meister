@@ -7,20 +7,22 @@ const Impressum = () => (
     <Breadcrumb items={[{ label: "Startseite", href: "/" }, { label: "Impressum" }]} />
     <div className="container-page py-8 max-w-3xl">
       <h1 className="text-3xl md:text-4xl mb-6">Impressum</h1>
-      <h2 className="text-xl font-semibold mt-6 mb-2">Angaben gemäß § 5 TMG</h2>
-      <p className="text-muted-foreground mb-4">
-        Viver Anguli<br />
-        Q. 906 Sul Alameda 7, 22 - Plano Diretor Sul<br />
-        Palmas - TO<br />
-        77023-384, Brasilien<br /><br />
-        E-Mail: <a href="mailto:one2sms@web.de" className="underline">one2sms@web.de</a>
-      </p>
        <h2 className="text-xl font-semibold mt-6 mb-2">Anschrift des Minigolfplatzes</h2>
        <p className="text-muted-foreground mb-4">
          Gartengolf Eppelheim<br />
          Kirchheimerstraße 90<br />
-         69214 Eppelheim<br /><br />
+         69214 Eppelheim
+       </p>
+       <p className="text-foreground font-semibold text-lg mt-12 mb-4">
          Gartengolf-Eppelheim.de ist nicht der Betreiber des Minigolf Platzes.
+       </p>
+       <h2 className="text-xl font-semibold mt-6 mb-2">Angaben gemäß § 5 TMG</h2>
+       <p className="text-muted-foreground mb-4">
+         Viver Anguli<br />
+         Q. 906 Sul Alameda 7, 22 - Plano Diretor Sul<br />
+         Palmas - TO<br />
+         77023-384, Brasilien<br /><br />
+         E-Mail: <a href="mailto:one2sms@web.de" className="underline">one2sms@web.de</a>
        </p>
       <h2 className="text-xl font-semibold mt-6 mb-2">Haftung für Inhalte</h2>
       <p className="text-muted-foreground mb-4">Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.</p>
