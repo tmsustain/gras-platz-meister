@@ -16,8 +16,8 @@ const sections = [
   { question: "Was ist das Gartengolf Eppelheim?", answer: "Gartengolf Eppelheim ist ein traditioneller Minigolfplatz mit 18 gepflegten Betonbahnen in Eppelheim bei Heidelberg. Die Anlage besticht durch ihre idyllische Gartenatmosphäre und ist seit vielen Jahren ein beliebtes Ausflugsziel für Familien, Gruppen und Minigolf-Enthusiasten aus der gesamten Metropolregion Rhein-Neckar." },
   { question: "Wo befindet sich Gartengolf Eppelheim?", answer: "Gartengolf Eppelheim liegt in der Kirchheimerstraße 90, 69214 Eppelheim. Die Gemeinde Eppelheim befindet sich direkt westlich von Heidelberg und südlich von Mannheim im Rhein-Neckar-Kreis. Die Anlage ist sowohl mit dem Auto als auch mit öffentlichen Verkehrsmitteln gut erreichbar – die Straßenbahnlinie 22 hält in unmittelbarer Nähe." },
   { question: "Wie viele Bahnen hat Gartengolf Eppelheim?", answer: "Gartengolf Eppelheim verfügt über 18 klassische Betonbahnen, die in einer gepflegten Gartenanlage angeordnet sind. Die Bahnen bieten verschiedene Schwierigkeitsgrade – von einfachen Geradeaus-Bahnen bis hin zu anspruchsvollen Kurven- und Hindernisbahnen. Sowohl Anfänger als auch erfahrene Spieler kommen auf ihre Kosten." },
-  { question: "Welche Öffnungszeiten hat das Gartengolf Eppelheim?", answer: "Montag bis Freitag: 14:00–19:00 Uhr, Samstag/Sonntag/Feiertage: 11:00–19:00 Uhr. Die Schlägerausgabe endet jeweils um 18:00 Uhr. In den Baden-Württemberg-Schulferien ist täglich ab 11:00 Uhr geöffnet." },
-  { question: "Was kostet der Eintritt beim Gartengolf Eppelheim?", answer: "Die erste Runde kostet für Erwachsene 6,00 €, für Kinder, Studenten und Senioren ab 65 Jahren 5,00 €. Weitere Runden sind vergünstigt (5,00 € bzw. 4,00 €). Es gibt 10er-Karten (ab 43,00 €), 50er-Karten (245,00 €) und Saisonkarten (ab 120,00 €)." },
+  { question: "Welche Öffnungszeiten hat das Gartengolf Eppelheim?", answer: "Montag bis Freitag: 14:00–22:00 Uhr, Samstag: 11:00–22:00 Uhr, Sonn- und Feiertags: 10:00–22:00 Uhr." },
+  { question: "Was kostet der Eintritt beim Gartengolf Eppelheim?", answer: "Die erste Runde kostet für Erwachsene 4,20 €, für Schüler, Studierende, Auszubildende und Rentner 3,70 € und für Kinder bis 14 Jahre 3,20 €. Weitere Runden sind vergünstigt (3,70 € / 3,20 € / 2,70 €). Es gibt 10er-Karten ab 26,00 € sowie eine 50er-Karte für Erwachsene (110,00 €)." },
   { question: "Wie kommt man zum Gartengolf Eppelheim?", answer: "Mit dem Auto erreichen Sie Gartengolf Eppelheim über die B535 oder die A5 (Ausfahrt Heidelberg/Schwetzingen). Kostenlose Parkplätze sind direkt an der Anlage vorhanden. Mit öffentlichen Verkehrsmitteln nehmen Sie die Straßenbahnlinie 22 Richtung Eppelheim – die Haltestelle liegt nur wenige Gehminuten entfernt." },
   { question: "Welche Minigolfvariante wird in Eppelheim gespielt?", answer: "Beim Gartengolf Eppelheim wird klassisches Minigolf auf genormten Betonbahnen gespielt. Diese Bahnvariante ist die in Deutschland am weitesten verbreitete und bietet durch feste Hindernisse wie Rampen, Tunnel und Kurven ein abwechslungsreiches Spielerlebnis für alle Altersgruppen." },
   { question: "Ist Gartengolf Eppelheim für Kindergeburtstage geeignet?", answer: "Ja, Gartengolf Eppelheim ist hervorragend für Kindergeburtstage geeignet. Die familienfreundliche Anlage bietet Kinderschläger, ausreichend Platz für Gruppen und eine sichere Umgebung. Gruppenreservierungen sind nach Voranmeldung möglich. Eine Runde Minigolf dauert etwa 45-60 Minuten und lässt sich ideal mit einem Picknick oder Kuchen kombinieren." },
@@ -84,12 +84,12 @@ const HomePage = () => {
             {
               icon: "🕐",
               title: "Öffnungszeiten",
-              lines: ["Mo–Fr: 14:00–19:00 Uhr", "Sa/So/Feiertage: 11:00–19:00 Uhr", "Schlägerausgabe bis 18:00 Uhr", "BW-Ferien: täglich ab 11:00 Uhr"],
+              lines: ["Mo–Fr: 14:00–22:00 Uhr", "Sa: 11:00–22:00 Uhr", "So/Feiertage: 10:00–22:00 Uhr"],
             },
             {
               icon: "💰",
               title: "Preise",
-              lines: ["Erwachsene: 6,00 € (1. Runde)", "Kinder/Studenten/Senioren: 5,00 € (1. Runde)", "10er-Karte ab 43,00 €"],
+              lines: ["Erwachsene: 4,20 € (1. Runde)", "Schüler/Studenten/Rentner: 3,70 €", "Kinder bis 14: 3,20 €", "10er-Karte ab 26,00 €"],
               link: "/preise",
             },
             {

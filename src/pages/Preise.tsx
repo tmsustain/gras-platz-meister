@@ -10,8 +10,8 @@ const Preise = () => {
   return (
     <>
       <SEOHead
-        title="💰 Preise – Gartengolf Eppelheim | Ab 5 € pro Runde"
-        description="⛳ Minigolf Preise Gartengolf Eppelheim: Einzelrunde ab 5 € ✓ 10er-Karten ✓ Saisonkarten ✓ Kinder, Studenten & Senioren günstiger!"
+        title="💰 Preise – Gartengolf Eppelheim | Ab 3,20 € pro Runde"
+        description="⛳ Minigolf Preise Gartengolf Eppelheim: Einzelrunde ab 3,20 € ✓ 10er-Karten ✓ 50er-Karte ✓ Kinder, Schüler, Studierende & Rentner günstiger!"
         canonical="/preise"
       />
       <div className="container-page py-10">
@@ -24,21 +24,19 @@ const Preise = () => {
           Ob Einzelrunde, Mehrfachkarte oder Saisonkarte – für jeden ist das passende Angebot dabei.
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-3xl">
-          {/* Kinder / Studenten / Senioren */}
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl">
+          {/* Erwachsene */}
           <div className="bg-card rounded-lg border card-shadow overflow-hidden">
             <div className="bg-primary px-6 py-4">
-              <h2 className="text-lg font-bold text-primary-foreground">
-                Kinder, Studenten &amp; Senioren &gt; 65 Jahre
-              </h2>
+              <h2 className="text-lg font-bold text-primary-foreground">Erwachsene</h2>
             </div>
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["Erste Runde", "5,00 €"],
-                  ["Weitere Runde", "4,00 €"],
-                  ["10er-Karte", "43,00 €"],
-                  ["Saisonkarte", "120,00 €"],
+                  ["Erste Runde", "4,20 €"],
+                  ["Weitere Runde", "3,70 €"],
+                  ["10er-Karte", "34,00 €"],
+                  ["50er-Karte", "110,00 €"],
                 ].map(([label, price], i) => (
                   <tr key={label} className={i % 2 === 0 ? "bg-muted/30" : ""}>
                     <td className="px-6 py-3 text-muted-foreground">{label}</td>
@@ -49,19 +47,40 @@ const Preise = () => {
             </table>
           </div>
 
-          {/* Erwachsene */}
+          {/* Schüler / Studierende / Auszubildende / Rentner */}
           <div className="bg-card rounded-lg border card-shadow overflow-hidden">
             <div className="bg-primary px-6 py-4">
-              <h2 className="text-lg font-bold text-primary-foreground">Erwachsene</h2>
+              <h2 className="text-lg font-bold text-primary-foreground">
+                Schüler, Studierende, Auszubildende &amp; Rentner
+              </h2>
             </div>
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ["Erste Runde", "6,00 €"],
-                  ["Weitere Runde", "5,00 €"],
-                  ["10er-Karte", "50,00 €"],
-                  ["50er-Karte", "245,00 €"],
-                  ["Saisonkarte", "150,00 €"],
+                  ["Erste Runde", "3,70 €"],
+                  ["Weitere Runde", "3,20 €"],
+                  ["10er-Karte", "30,00 €"],
+                ].map(([label, price], i) => (
+                  <tr key={label} className={i % 2 === 0 ? "bg-muted/30" : ""}>
+                    <td className="px-6 py-3 text-muted-foreground">{label}</td>
+                    <td className="px-6 py-3 text-right font-semibold">{price}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Kinder bis 14 Jahre */}
+          <div className="bg-card rounded-lg border card-shadow overflow-hidden">
+            <div className="bg-primary px-6 py-4">
+              <h2 className="text-lg font-bold text-primary-foreground">Kinder bis 14 Jahre</h2>
+            </div>
+            <table className="w-full text-sm">
+              <tbody>
+                {[
+                  ["Erste Runde", "3,20 €"],
+                  ["Weitere Runde", "2,70 €"],
+                  ["10er-Karte", "26,00 €"],
                 ].map(([label, price], i) => (
                   <tr key={label} className={i % 2 === 0 ? "bg-muted/30" : ""}>
                     <td className="px-6 py-3 text-muted-foreground">{label}</td>
