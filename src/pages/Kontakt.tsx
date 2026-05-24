@@ -17,10 +17,9 @@ const Kontakt = () => (
           <h2 className="text-xl font-semibold mb-3">🕐 Öffnungszeiten</h2>
           <table className="w-full text-sm text-muted-foreground">
             <tbody>
-              <tr className="border-b border-border/50"><td className="py-1.5">Mo–Fr</td><td className="text-right">14:00–19:00 Uhr</td></tr>
-              <tr className="border-b border-border/50"><td className="py-1.5">Sa/So/Feiertage</td><td className="text-right">11:00–19:00 Uhr</td></tr>
-              <tr className="border-b border-border/50"><td className="py-1.5">Schlägerausgabe</td><td className="text-right">bis 18:00 Uhr</td></tr>
-              <tr><td className="py-1.5">BW-Ferien</td><td className="text-right">täglich ab 11:00 Uhr</td></tr>
+              <tr className="border-b border-border/50"><td className="py-1.5">Mo–Fr</td><td className="text-right">14:00–22:00 Uhr</td></tr>
+              <tr className="border-b border-border/50"><td className="py-1.5">Sa</td><td className="text-right">11:00–22:00 Uhr</td></tr>
+              <tr><td className="py-1.5">So/Feiertage</td><td className="text-right">10:00–22:00 Uhr</td></tr>
             </tbody>
           </table>
         </div>
