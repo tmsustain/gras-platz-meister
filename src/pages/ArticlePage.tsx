@@ -92,8 +92,8 @@ const ArticlePage = () => {
         {/* Article Sections */}
         <div className="space-y-10">
           {article.sections.map((s, i) => (
-            <>
-              <section key={i} id={`section-${i}`}>
+            <div key={i}>
+              <section id={`section-${i}`}>
                 <h2 className="text-xl md:text-2xl mb-3">{s.question}</h2>
                 <p className="text-muted-foreground font-medium mb-4 bg-accent/50 p-3 rounded-md text-sm">
                   {s.answer}
@@ -101,7 +101,7 @@ const ArticlePage = () => {
                 <p className="text-muted-foreground leading-relaxed">{s.content}</p>
               </section>
               {article.midImage && article.midImage.afterSectionIndex === i && (
-                <figure key={`mid-${i}`} className="-mx-4 md:mx-0">
+                <figure className="-mx-4 md:mx-0 mt-10">
                   <img
                     src={article.midImage.src}
                     alt={article.midImage.alt}
@@ -115,7 +115,7 @@ const ArticlePage = () => {
                   )}
                 </figure>
               )}
-            </>
+            </div>
           ))}
         </div>
 
