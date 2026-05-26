@@ -55,6 +55,22 @@ const ArticlePage = () => {
           </div>
         </header>
 
+        {article.heroImage && (
+          <figure className="mb-10 -mx-4 md:mx-0">
+            <img
+              src={article.heroImage.src}
+              alt={article.heroImage.alt}
+              loading="eager"
+              className="w-full h-auto rounded-lg object-cover aspect-[16/9]"
+            />
+            {article.heroImage.credit && (
+              <figcaption className="text-xs text-muted-foreground mt-2 text-right">
+                {article.heroImage.credit}
+              </figcaption>
+            )}
+          </figure>
+        )}
+
         <p className="text-lg text-muted-foreground leading-relaxed mb-10 border-l-4 border-primary pl-4">
           {article.excerpt}
         </p>
@@ -76,13 +92,30 @@ const ArticlePage = () => {
         {/* Article Sections */}
         <div className="space-y-10">
           {article.sections.map((s, i) => (
-            <section key={i} id={`section-${i}`}>
-              <h2 className="text-xl md:text-2xl mb-3">{s.question}</h2>
-              <p className="text-muted-foreground font-medium mb-4 bg-accent/50 p-3 rounded-md text-sm">
-                {s.answer}
-              </p>
-              <p className="text-muted-foreground leading-relaxed">{s.content}</p>
-            </section>
+            <>
+              <section key={i} id={`section-${i}`}>
+                <h2 className="text-xl md:text-2xl mb-3">{s.question}</h2>
+                <p className="text-muted-foreground font-medium mb-4 bg-accent/50 p-3 rounded-md text-sm">
+                  {s.answer}
+                </p>
+                <p className="text-muted-foreground leading-relaxed">{s.content}</p>
+              </section>
+              {article.midImage && article.midImage.afterSectionIndex === i && (
+                <figure key={`mid-${i}`} className="-mx-4 md:mx-0">
+                  <img
+                    src={article.midImage.src}
+                    alt={article.midImage.alt}
+                    loading="lazy"
+                    className="w-full h-auto rounded-lg object-cover aspect-[16/9]"
+                  />
+                  {article.midImage.credit && (
+                    <figcaption className="text-xs text-muted-foreground mt-2 text-right">
+                      {article.midImage.credit}
+                    </figcaption>
+                  )}
+                </figure>
+              )}
+            </>
           ))}
         </div>
 
