@@ -9,6 +9,8 @@ export interface Article {
   sections: { question: string; answer: string; content: string }[];
   relatedArticles: string[];
   relatedCities: string[];
+  heroImage?: { src: string; alt: string; credit?: string };
+  midImage?: { src: string; alt: string; credit?: string; afterSectionIndex?: number };
 }
 
 export const articleCategories = [
@@ -389,6 +391,17 @@ export const articles: Article[] = [
     ],
     relatedArticles: ["minigolf-fuer-kinder", "minigolf-kindergeburtstag", "minigolf-gruppenevents"],
     relatedCities: ["heidelberg", "mannheim"],
+    heroImage: {
+      src: "https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      alt: "Gemütlicher Garten mit Sitzplatz, Beeten und Bäumen",
+      credit: "Foto: Pexels",
+    },
+    midImage: {
+      src: "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      alt: "Gartenstühle und blühende Beete im Sommer",
+      credit: "Foto: Pexels",
+      afterSectionIndex: 4,
+    },
   },
 ];
 
