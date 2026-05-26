@@ -322,6 +322,74 @@ export const articles: Article[] = [
     relatedArticles: ["minigolf-regeln", "minigolf-technik-tipps", "was-ist-minigolf"],
     relatedCities: ["heidelberg"],
   },
+  {
+    slug: "garten-gemuetlich-gestalten-sitzplatz-beete-schatten",
+    title: "Garten gemütlich gestalten: Sitzplatz, Beete & Schatten planen",
+    h1: "Garten gemütlich gestalten: Ideen für Sitzplatz, Beete, Schatten und mehr Natur",
+    metaDescription: "Garten gemütlich gestalten: praktische Ideen für Sitzplatz, Beete, Schatten, Wege, Essplatz und naturnahes Gärtnern in Eppelheim.",
+    category: "Familie",
+    excerpt: "Ein gemütlicher Garten entsteht durch gute Planung: Sitzplatz, Beete, Schatten, Wege, Licht und naturnahe Pflanzen sinnvoll kombinieren – Ideen für Eppelheim und die Rhein-Neckar-Region.",
+    publishDate: "2026-05-26",
+    sections: [
+      {
+        question: "Garten gemütlich gestalten: erst Nutzung klären, dann planen",
+        answer: "Vor Möbeln, Pflanzen und Deko steht die Frage, wofür der Garten hauptsächlich da sein soll: Erholung, Essen im Freien, Familie, naturnahes Gärtnern oder Kleingarten. Aus dieser Nutzung ergeben sich Sitzplatz, Wege und Pflanzen.",
+        content: "Viele Gartenbesitzer beginnen mit einzelnen Ideen: neue Stühle, Hochbeet, Sonnenschirm, Lichterkette, Staudenbeet oder kleiner Teich. Das ist verständlich, führt aber schnell zu einem unruhigen Gesamtbild. Besser ist die Frage, wofür der Garten hauptsächlich da sein soll. Für Erholung zählen ruhiger Sitzplatz, Sichtschutz, Schatten und bequeme Möbel. Für Essen im Freien sind ein stabiler Tisch, kurze Wege zur Küche, Licht und Wetterschutz wichtig. Familiengärten brauchen robuste Flächen, sichere Wege und flexible Sitzgelegenheiten. Naturnahe Gärten leben von heimischen Pflanzen, Blühflächen, einer Wasserstelle, Totholz und weniger Versiegelung. Kleingärten profitieren von einer praktischen Aufteilung mit Beeten, Kompost, Geräteplatz und gemeinschaftstauglicher Gestaltung. Der Landesverband der Gartenfreunde Baden-Württemberg zeigt, wie stark Kleingärten und Gartenvereine regional verankert sind."
+      },
+      {
+        question: "Der Sitzplatz als Herzstück des Gartens",
+        answer: "Der Sitzplatz entscheidet, ob der Garten wirklich genutzt wird. Er sollte angenehm, geschützt und gut erreichbar liegen – nicht zufällig irgendwo, sondern dort, wo man gerne verweilt.",
+        content: "Ein guter Sitzplatz liegt mit angenehmem Blick, etwas Schutz vor Wind, nicht zu weit von Haus, Laube oder Gartenküche entfernt und möglichst nicht in der prallen Mittagssonne. In Eppelheim und im Raum Heidelberg sind die Sommer oft warm genug, um viele Stunden draußen zu verbringen. Deshalb sollte ein Sitzplatz nicht nur für den Sonntagnachmittag gedacht sein, sondern auch für den schnellen Kaffee, das Abendessen nach der Arbeit oder ein Gespräch mit Nachbarn. Besonders gemütlich wirken Sitzplätze, wenn sie nicht völlig frei im Raum stehen: Eine Hecke, ein Rankgitter, hohe Stauden, ein kleiner Baum oder ein Beet im Rücken geben dem Platz Halt, während der Blick offen bleibt."
+      },
+      {
+        question: "Schatten macht den Garten alltagstauglich",
+        answer: "Ohne Schatten wird selbst der schönste Garten im Hochsommer schnell unbequem. Sonnenschirm, Sonnensegel, Pergola, Bäume und Rankpflanzen lassen sich gut kombinieren – kurzfristig flexibel, langfristig natürlich.",
+        content: "Ein Sonnenschirm ist die einfachste Lösung, aber nicht die einzige. Auch Bäume, Pergolen, Rankpflanzen, Sonnensegel oder begrünte Laubengänge können helfen. Natürlicher Schatten fühlt sich oft angenehmer an, braucht aber Zeit. Deshalb ist eine Kombination sinnvoll: kurzfristig Schirm oder Segel, langfristig Baum, Strauch oder Kletterpflanze. Für kleine Gärten eignen sich schlanke Bäume, Spalierobst oder Rankpflanzen besonders gut. Sie bringen Höhe in den Garten, ohne zu viel Fläche zu verbrauchen, und verbessern gleichzeitig das Mikroklima."
+      },
+      {
+        question: "Beete als Rahmen für mehr Gemütlichkeit",
+        answer: "Beete strukturieren den Garten und rahmen den Sitzplatz. Mischpflanzungen aus Stauden, Kräutern und kleinen Sträuchern wirken lebendiger als eine leere Fläche und brauchen mit den richtigen Pflanzen wenig Pflege.",
+        content: "Ein Sitzplatz neben einem Beet wirkt sofort wohnlicher als eine Stuhlgruppe auf einer leeren Fläche. Besonders angenehm sind Mischpflanzungen aus Stauden, Kräutern, kleinen Sträuchern und saisonalen Blüten. Sie verändern sich im Laufe des Jahres und sorgen dafür, dass der Garten lebendig bleibt. Wer wenig Zeit hat, sollte pflegeleichte Stauden und robuste Kräuter wählen: Lavendel, Salbei, Thymian, Katzenminze, Frauenmantel, Sonnenhut, Fetthenne oder Ziergräser. Für naturnahes Gärtnern sind heimische Pflanzen besonders wertvoll, weil sie Insekten und Vögeln Nahrung bieten."
+      },
+      {
+        question: "Wege, Licht und Wasser im Garten",
+        answer: "Klare Wege, dezente Beleuchtung und etwas Wasser machen den Garten alltagstauglich. Wasserdurchlässige Beläge, warme Lichtpunkte und eine Regentonne oder Vogeltränke reichen oft schon aus.",
+        content: "Ein Garten wirkt ruhiger, wenn die Wege klar sind – ob gerade oder geschwungen. Wichtig ist, dass man trockenen Fußes zum Sitzplatz, zum Kompost, zur Laube und zu den Beeten kommt. Wasserdurchlässige Materialien wie Kies, Splitt, Trittplatten oder Holzroste sind oft besser als komplett versiegelte Flächen. Gartenbeleuchtung darf zurückhaltend sein: wenige warme Lichtpunkte am Weg und am Sitzplatz reichen aus. Wasser macht den Garten zusätzlich angenehmer – schon eine Regentonne, eine Vogeltränke oder eine flache Wasserschale hilft Vögeln und Insekten und spart in trockenen Sommern Trinkwasser."
+      },
+      {
+        question: "Mehr Natur statt zu viel Dekoration",
+        answer: "Ein Garten wird nicht gemütlicher, wenn jede Ecke dekoriert ist. Natürliche Elemente wie alte Obstbäume, Wildblumenecken, Kompost und Totholz wirken stärker und bieten Lebensraum.",
+        content: "Oft reicht es, natürliche Elemente stärker wirken zu lassen: ein alter Obstbaum, ein Kräuterbeet, eine Wildblumenecke, ein Kompostplatz, eine Wasserstelle, ein Stück Totholz oder ein kleiner Steinhaufen. Solche Elemente sehen nicht nur gut aus, sondern bieten auch Lebensraum. Besonders in dicht besiedelten Regionen wie dem Umfeld von Heidelberg, Eppelheim und Mannheim sind grüne Flächen wichtig. Private Gärten und Kleingärten können kleine Ausgleichsräume sein, in denen Natur wieder näher an den Alltag rückt."
+      },
+      {
+        question: "Kleiner Garten, große Wirkung",
+        answer: "Auch kleine Gärten können gemütlich sein – wenn nicht zu viele Funktionen gleichzeitig untergebracht werden. Ein guter Sitzplatz, wenige starke Pflanzen und schmale Beete am Rand reichen oft aus.",
+        content: "Ein kleiner Garten braucht klare Prioritäten: ein guter Sitzplatz, wenige starke Pflanzen, Stauraum für Geräte und vielleicht ein Hochbeet. Große Möbel, zu viele Pflanzkübel und unruhige Dekoration lassen kleine Flächen schnell voll wirken. Für kleine Gärten eignen sich klappbare Möbel, stapelbare Stühle, schmale Pflanzregale, vertikale Rankhilfen und Beete entlang der Ränder. Wer Platz sparen möchte, kombiniert Stauraum und Sitzfläche, etwa mit einer Banktruhe."
+      },
+      {
+        question: "Gemüse, Kräuter und Naschobst integrieren",
+        answer: "Kräuter, Beeren und kleine Gemüseflächen machen den Garten lebendig. Hochbeete sorgen für Ordnung und sind bequem zu bearbeiten – ideal für Familien- und Kleingärten.",
+        content: "Minze, Schnittlauch, Petersilie, Rosmarin oder Thymian in der Nähe des Sitzplatzes sind praktisch und duften angenehm. Erdbeeren, Johannisbeeren oder Himbeeren bringen Naschmomente in den Garten. Hochbeete sind besonders beliebt, weil sie Ordnung schaffen und bequem zu bearbeiten sind. Wichtig ist, sie nicht zu groß zu planen: Man sollte von allen Seiten gut an die Pflanzen kommen oder das Beet so schmal anlegen, dass die Mitte erreichbar bleibt."
+      },
+      {
+        question: "Garten gemütlich machen im Jahreslauf",
+        answer: "Ein guter Garten funktioniert nicht nur im Hochsommer. Mit Frühblühern, Sommerstauden, Herbstgräsern und immergrünen Sträuchern bleibt er ganzjährig attraktiv.",
+        content: "Im Frühling braucht der Garten erste Sitzplätze in der Sonne, Frühblüher und vorbereitete Beete. Im Sommer stehen Schatten, Wasser und Ernte im Mittelpunkt. Im Herbst sorgen Gräser, Astern, Laubfarben und späte Kräuter für Stimmung. Im Winter können immergrüne Sträucher, schöne Strukturen und ein aufgeräumter Sitzplatz den Garten weiterhin attraktiv machen. Wer den Garten ganzjährig denkt, kauft weniger spontan und plant besser."
+      },
+      {
+        question: "Regionale Idee für Eppelheim: Garten als Treffpunkt",
+        answer: "Gärten sind in Eppelheim nicht nur private Rückzugsorte, sondern auch soziale Orte – zum Beispiel im Verein der Gartenfreunde Eppelheim. Gute Sitz- und Essbereiche machen den Garten zum Treffpunkt.",
+        content: "Der Verein der Gartenfreunde Eppelheim ist auf der Website der Stadt Eppelheim als Verein gelistet. Das zeigt, wie stark Gartenkultur auch mit Vereinsleben, Austausch und Nachbarschaft verbunden ist. Ein gemütlicher Garten sollte deshalb nicht nur für Alleinsein geplant werden, sondern auch für Gespräche über den Zaun, gemeinsames Essen, kleine Feiern oder gegenseitige Hilfe. Gerade in einem Gartenverein ist das wichtig: Man gärtnert zwar auf der eigenen Parzelle, ist aber Teil einer größeren Gemeinschaft."
+      },
+      {
+        question: "Welche Fehler sollte man bei der Gartengestaltung vermeiden?",
+        answer: "Typische Fehler sind zu große Möbel, fehlender Schatten, zu viele verschiedene Materialien, unklare Wege, ungünstige Sitzplätze und Pflanzen, die nicht zum Standort passen. Besser ist eine einfache Planung mit wenigen starken Elementen.",
+        content: "Ein gemütlicher Garten braucht keine perfekte Größe und kein großes Budget. Entscheidend sind klare Zonen, ein angenehmer Sitzplatz, passende Pflanzen, ausreichend Schatten, praktische Wege und ein wenig Licht für den Abend. Wer dann noch Natur zulässt, Wasser spart, heimische Pflanzen integriert und den Garten an die eigene Nutzung anpasst, schafft einen Ort, der mehr ist als eine gepflegte Fläche. Für Eppelheim und die Rhein-Neckar-Region gilt besonders: Gärten sind wertvolle grüne Räume zwischen Stadt, Alltag und Erholung."
+      }
+    ],
+    relatedArticles: ["minigolf-fuer-kinder", "minigolf-kindergeburtstag", "minigolf-gruppenevents"],
+    relatedCities: ["heidelberg", "mannheim"],
+  },
 ];
 
 export const getArticleBySlug = (slug: string) => articles.find((a) => a.slug === slug);
