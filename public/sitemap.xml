@@ -64,6 +64,7 @@
   <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-mit-hund</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://gartengolf-eppelheim.de/magazin/minigolf-barrierefrei</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://gartengolf-eppelheim.de/magazin/beste-minigolf-apps</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://gartengolf-eppelheim.de/magazin/garten-gemuetlich-gestalten-sitzplatz-beete-schatten</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Rechtliches (noindex, aber in Sitemap für Crawling) -->
   <url><loc>https://gartengolf-eppelheim.de/impressum</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
