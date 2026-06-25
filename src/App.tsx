@@ -28,6 +28,7 @@ const AppContent = () => {
   useAdsenseRefresh();
   return (
     <>
+      <InfoBanner />
       <Header />
       <main className="min-h-screen">
         <Routes>
