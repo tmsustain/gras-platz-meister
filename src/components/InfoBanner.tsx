@@ -1,7 +1,15 @@
 import { useState, useEffect } from "react";
 
+const STORAGE_KEY = "infoBannerDismissed";
+
 const InfoBanner = () => {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(() => {
+    try {
+      return localStorage.getItem(STORAGE_KEY) !== "true";
+    } catch {
+      return true;
+    }
+  });
 
   useEffect(() => {
     if (!visible) return;
@@ -11,6 +19,15 @@ const InfoBanner = () => {
     return () => clearTimeout(timer);
   }, [visible]);
 
+  const handleDismiss = () => {
+    setVisible(false);
+    try {
+      localStorage.setItem(STORAGE_KEY, "true");
+    } catch {
+      // ignore storage errors
+    }
+  };
+
   if (!visible) return null;
 
   return (
@@ -19,7 +36,7 @@ const InfoBanner = () => {
         Wir sind nicht der Betreiber des Gartengolf Eppelheim – inoffizielle Seite.
       </span>
       <button
-        onClick={() => setVisible(false)}
+        onClick={handleDismiss}
         className="absolute right-2 top-1/2 -translate-y-1/2 p-1 hover:bg-amber-200 rounded transition-colors"
         aria-label="Schließen"
       >
