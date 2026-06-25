@@ -5,6 +5,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Header from "@/components/Header";
+import InfoBanner from "@/components/InfoBanner";
 import Footer from "@/components/Footer";
 import HomePage from "@/pages/HomePage";
 
