@@ -124,7 +124,7 @@ const HomePage = () => {
         <div className="rounded-xl overflow-hidden border card-shadow mb-8 aspect-[3/1]">
           <iframe
             title="Gartengolf Eppelheim auf Google Maps"
-            src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(venue.address)}&zoom=15`}
+            src={`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_GOOGLE_MAPS_KEY}&q=${encodeURIComponent(venue.address)}&zoom=15`}
             width="100%"
             height="100%"
             style={{ border: 0 }}
