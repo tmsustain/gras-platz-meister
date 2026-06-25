@@ -69,7 +69,7 @@ const HomePage = () => {
       {/* Hero Image */}
       <section className="w-full">
         <img
-          src={heroImage}
+          src={heroImage.url}
           alt="Minigolfanlage Gartengolf Eppelheim mit gepflegten Bahnen und idyllischer Gartenatmosphäre"
           className="w-full h-[300px] md:h-[450px] lg:h-[550px] object-cover"
           loading="eager"
