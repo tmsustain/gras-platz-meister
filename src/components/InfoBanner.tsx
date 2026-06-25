@@ -15,7 +15,7 @@ const InfoBanner = () => {
     if (!visible) return;
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 5000);
+    }, 300000);
     return () => clearTimeout(timer);
   }, [visible]);
 
